@@ -5,7 +5,7 @@ from telegram import Update,Bot
 logging.basicConfig(format='%(asctime)s-%(name)s-%(levelname)s-%(message)s',level=logging.INFO)
 logger=logging.getLogger(__name__)
 
-TOKEN="1801378862:AAEXFPn5uEs1xJescFC9WaGK4gF5OOLrDYo"
+TOKEN="xxxxxx"
 
 def start(bot,update):
     print(update)
