@@ -25,8 +25,6 @@ def webhook():
 	dp.process_update(update)
 	return "ok"
 
-#------------------------
-
 def start(bot,update):
 	print(update)
 	author = update.message.from_user.first_name
@@ -48,14 +46,6 @@ def echo_sticker(bot,update):
 def error(bot,update):
 	logger.error("update '%s' caused error '%s'",update , update.error)
 	
-
-##def main():
-##	# updater = Updater(TOKEN)       for echo bot
-## 	# dp = updater.dispatcher
-##	# updater.start_polling()
-##	# logger.info("Started polling")       #for echo bot we used polling
-##	# updater.idle()
-
 if __name__ == "__main__":
         
         bot = Bot(TOKEN)
