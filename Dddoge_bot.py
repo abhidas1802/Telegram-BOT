@@ -7,7 +7,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s %(message)s',
 	                level= logging.INFO) 
 logger = logging.getLogger(__name__)
 
-TOKEN = "1801378862:AAHD-k47MDoZs7FcKpZSTTJ3IS5a2WZqhcY"
+TOKEN = "xxxxxx"
 
 #webhook-----------------
 app = Flask(__name__)
